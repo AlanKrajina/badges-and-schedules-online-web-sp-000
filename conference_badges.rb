@@ -6,11 +6,11 @@ def badge_maker(name)
 end
   
 def batch_badge_creator(name)
-    old_array=[]
-     name.each do |badge|
-      old_array.push("Hello, my name is #{badge}.")
-     end
-    return old_array
+  old_array=[]
+  name.each do |badge|
+    old_array.push("Hello, my name is #{badge}.")
+    end
+  return old_array
 end
 
 def assign_rooms(attendees)
